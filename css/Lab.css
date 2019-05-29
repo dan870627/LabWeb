@@ -32,6 +32,6 @@
   text-align: center;
 }
 
-.bg-dark *{
+.bg-dark * :not(.dropdown-item){
   color:white;
 }
