@@ -33,171 +33,191 @@
   <body>
     <!-- 導覽列 -->
     <div class="fixed-top d-flex flex-column flex-md-row align-items-center p-3 px-md-4  bg-white border-bottom shadow-sm">
-      <h5 class="my-0 mr-md-auto font-weight-normal"><a class="text-dark" href="./index.html">森LAB</a></h5>
+      <h5 class="my-0 mr-md-auto font-weight-normal">
+        <a class="text-dark" href="./index.html">森LAB</a>
+      </h5>
       <nav class="my-2 my-md-0 mr-md-3">
         <ul id="labmenu">
           <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Lab介紹
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="./teacher.html">老師介紹</a>
-                <a class="dropdown-item" href="./student.html">成員介紹</a>
-                <a class="dropdown-item" href="#">研究領域</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  成果展示
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="./Project.html">專題</a>
-                  <a class="dropdown-item" href="./Race.html">競賽</a>
-                  <a class="dropdown-item" href="./Book.html">書籍</a>
-                  <a class="dropdown-item" href="./Nationalpaper.html">國科會</a>
-                  <a class="dropdown-item" href="./Studentpaper.html">論文</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="./activity.html">
-                  活動集錦
-                </a>
-                </li>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Lab介紹
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./teacher.html">老師介紹</a>
+              <a class="dropdown-item" href="./student.html">成員介紹</a>
+              <a class="dropdown-item" href="#">研究領域</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              成果展示
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./Project.html">專題</a>
+              <a class="dropdown-item" href="./Race.html">競賽</a>
+              <a class="dropdown-item" href="./Book.html">書籍</a>
+              <a class="dropdown-item" href="./Nationalpaper.html">國科會</a>
+              <a class="dropdown-item" href="./Studentpaper.html">論文</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="./activity.html">
+              活動集錦
+            </a>
+          </li>
         </ul>
-          
+
       </nav>
-      <a class="btn btn-outline-primary" href="#">Sign up</a>
+      <!-- <a class="btn btn-outline-primary" href="#">Sign up</a> -->
     </div>
 
+    <!-- Header -->
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Lab介紹</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./teacher.html">老師</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./student.html">學生</a>
+      </li>
+    </ul>
+
     <div class="container-fluid">
-        <div class="row">
-          <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-            <div class="sidebar-sticky">
-              <ul class="nav flex-column">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">
-                    <span data-feather="home"></span>
-                    活動類型1 <span class="sr-only">(current)</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <span data-feather="file"></span>
-                    活動類型2
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <span data-feather="shopping-cart"></span>
-                    活動類型3
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <span data-feather="users"></span>
-                    活動類型4
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <span data-feather="bar-chart-2"></span>
-                    活動類型5
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <span data-feather="layers"></span>
-                    活動類型6
-                  </a>
-                </li>
-              </ul>
-      
-              <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-                <span>Saved reports</span>
-                <a class="d-flex align-items-center text-muted" href="#">
-                  <span data-feather="plus-circle"></span>
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  <span data-feather="home"></span>
+                  活動類型1
+                  <span class="sr-only">(current)</span>
                 </a>
-              </h6>
-              <ul class="nav flex-column mb-2">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <span data-feather="file-text"></span>
-                    Current month
-                  </a>
-                </li>
-                
-              </ul>
-            </div>
-          </nav>
-      
-          <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-              <h1 class="h2">活動標題</h1>
-              
-            </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <img src="./img/001.jpg" style="width: 100%;" />
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file"></span>
+                  活動類型2
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="shopping-cart"></span>
+                  活動類型3
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="users"></span>
+                  活動類型4
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="bar-chart-2"></span>
+                  活動類型5
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="layers"></span>
+                  活動類型6
+                </a>
+              </li>
+            </ul>
+
+            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+              <span>Saved reports</span>
+              <a class="d-flex align-items-center text-muted" href="#">
+                <span data-feather="plus-circle"></span>
+              </a>
+            </h6>
+            <ul class="nav flex-column mb-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  Current month
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+            <h1 class="h2">活動標題</h1>
+
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="./img/001.jpg" style="width: 100%;"/>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                     </div>
+                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <img src="./img/002.jpg" style="width: 100%;" />
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="./img/002.jpg" style="width: 100%;"/>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <img src="./img/003.jpg" style="width: 100%;" />
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
-                    </div>
+                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
             </div>
-      
-          </main>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="./img/003.jpg" style="width: 100%;"/>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </main>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="copyright py-4 text-center text-white bg-dark" style="margin-top:100px">
+        <div class="container">
+          <small>Copyright &copy; Your Website 2019</small>
         </div>
       </div>
+    </footer>
 
-  <!-- footer -->
-  <footer>
-      <div class="copyright py-4 text-center text-white bg-dark" style="margin-top:100px">
-          <div class="container">
-            <small>Copyright &copy; Your Website 2019</small>
-          </div>
-        </div>
-  </footer>
-  
-</body>
+  </body>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="https://bootstrap.hexschool.com/docs/4.2/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="https://bootstrap.hexschool.com/docs/4.2/dist/js/bootstrap.bundle.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="https://bootstrap.hexschool.com/docs/4.2/assets/js/vendor/jquery-slim.min.js"><\/script>')
+  </script>
+  <script src="https://bootstrap.hexschool.com/docs/4.2/dist/js/bootstrap.bundle.js"></script>
+
 </html>

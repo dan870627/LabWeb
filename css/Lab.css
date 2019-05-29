@@ -31,3 +31,7 @@
 .card, .col-2{
   text-align: center;
 }
+
+.bg-dark *{
+  color:white;
+}
