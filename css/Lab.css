@@ -1,0 +1,33 @@
+#labmenu li{
+    display:inline;
+    float:left;
+  }
+  
+  a:hover{
+    text-decoration:none;
+  }
+
+  #back {
+    height: 600px;
+    width: 95vw;
+    margin-left: 50px;
+  }
+
+  .block{
+    background-color:white;
+    width: 700px;
+    height: 600px;
+    float: left;
+    border: 1px black solid;
+}
+
+.block #han {
+  width: 449px;
+  height: 600px;
+  margin: auto;
+  display: block;
+}
+
+.card, .col-2{
+  text-align: center;
+}
