@@ -1,24 +1,32 @@
+/* index */
 #labmenu li{
-    display:inline;
-    float:left;
-  }
+  display:inline;
+  float:left;
+}
   
-  a:hover{
-    text-decoration:none;
-  }
+a:hover{
+  text-decoration:none;
+}
 
-  #back {
-    height: 600px;
-    width: 95vw;
-    margin-left: 50px;
-  }
+.bg-dark * :not(.dropdown-item){
+  color:white;
+}
 
-  .block{
-    background-color:white;
-    width: 700px;
-    height: 600px;
-    float: left;
-    border: 1px black solid;
+/* teacher */
+#back {
+  height: 600px;
+  margin: auto;
+  display: table;
+  min-width: 80vw;
+}
+
+.block{
+  background-color: white;
+  width: 40%;
+  height: 600px;
+  vertical-align: top;
+  display: table-cell;
+  border: 1px black solid;
 }
 
 .block #han {
@@ -28,10 +36,24 @@
   display: block;
 }
 
+/* 畢業生&成果展示 card */
 .card, .col-2{
   text-align: center;
 }
 
-.bg-dark * :not(.dropdown-item){
-  color:white;
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* footer */
+.wrapper{
+  position:relative;
+  min-height: 90vh;
+}
+
+.botm{
+  position: absolute;
+  bottom:0px;
+  width:100%;
 }
